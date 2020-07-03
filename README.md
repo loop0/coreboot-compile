@@ -1,4 +1,4 @@
-# Docker image to help compiling coreboot
+# Docker image to help compile coreboot
 
 This image was only tested compiling coreboot version 4.12. I intend to update it for newer versions when needed.
 
