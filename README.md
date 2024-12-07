@@ -1,15 +1,15 @@
 # Docker image to help compile coreboot
 
-This image was only tested compiling coreboot version 4.12. I intend to update it for newer versions when needed.
+This image was tested compiling coreboot version 24.08 with EDK2 payload. I intend to update it for newer versions when needed.
 
 ## How to use it
 The usage is pretty simple, you just have to run mounting your local coreboot folder to it, like:
 
 ```sh
-$ docker run -it -v /home/loop0/Code/coreboot-4.12:/coreboot:z loop0br/coreboot-compile /bin/bash
+$ docker run -it -v /home/loop0/Code/coreboot-24.08:/coreboot:z loop0br/coreboot-compile /bin/bash
 ```
 
-Remember to change the `/home/loop0/Code/coreboot-4.12` (in the example above) to point to your coreboot local directory.
+Remember to change the `/home/loop0/Code/coreboot-24.08` (in the example above) to point to your coreboot local directory.
 
 After you successfully entered the bash you can proceed to:
 * Create your coreboot configuration
